@@ -1,0 +1,8 @@
+language: node_js
+script: 'make test-phantom test-node'
+node_js:
+  - '0.10'
+env:
+  global:
+  - secure: fxSkVKI+zef3v5I0s5z0QzkSFSFZEPDjW8cA6uIn2++DhXC0Zn+VI78yj2iHvDbL4IK6GG/vplohunSYv2pyljk62xo05yg1pMj+sIp56lOMowfz6Fj+sq4xmnx/xZFNIoJ+aSeUa4InGNxlJVK+55SoDZJXU2bTIzBcB0M03OQ=
+  - secure: 4UN1XKJ/m8hZc869WuryWBpfyvLv8qo0dLYkqWdEFnI6EW/6311+0yMcG55/xHduqU3wIN4s36vrpOhfYMYujThhi9ggoJr0vg7Gcre4RKspr9R+f6mP7j7jme8FEbVuhv0Z5AQCRCNqJvCpYDE2DvboqqNym1RJKyhVUwReQHw=
