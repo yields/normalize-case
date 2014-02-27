@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf8'>
+    <title>normalize-case</title>
+    <link rel='stylesheet' href='../build/build.css'>
+    <script src='../build/build.js'></script>
+    <script>require('mocha')</script>
+    <script>mocha.setup({ ui: 'bdd' })</script>
+  </head>
+  <body>
+    <div id='mocha'></div>
+    <script src='fixtures.js'></script>
+    <script src='test.js'></script>
+    <script>
+      (phantomjs = window.mochaPhantomJS)
+        ? phantomjs.run()
+        : require('gravy')(mocha.run());
+    </script>
+  </body>
+</html>

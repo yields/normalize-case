@@ -1,0 +1,19 @@
+{
+  "name": "normalize-case",
+  "repo": "yields/normalize-case",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "version": "0.0.1",
+  "dependencies": {
+    "ianstormtaylor/case": "0.1.1",
+    "component/type": "1.0.0"
+  },
+  "development": {
+    "visionmedia/mocha": "*",
+    "component/assert": "*",
+    "yields/gravy": "*",
+    "yields/eql": "*"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "normalize-case",
+  "repo": "yields/normalize-case",
+  "description": "recursively normalize to camelcase",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "mocha-phantomjs": "~3.3.2",
+    "serve": "~1.3.0",
+    "gravy": "~0.1.0",
+    "component": "~0.19.7"
+  }
+}
