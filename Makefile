@@ -5,6 +5,7 @@ P=$(BINS)/mocha-phantomjs
 C=$(BINS)/component
 S=$(BINS)/serve
 G=$(BINS)/gravy
+M=$(BINS)/mocha
 
 build: node_modules index.js components
 	@$(C) build --dev
@@ -22,6 +23,11 @@ test-phantom: server build
 test-sauce: server build
 	@BROWSERS=$(BROWSERS) $(G) \
 		--url $(URL)
+
+test-node: node_modules
+	@$(M) test/node \
+		--require should \
+		--reporter spec
 
 node_modules: package.json
 	@npm install

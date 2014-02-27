@@ -4,7 +4,13 @@
  */
 
 var camelize = require('case').camel;
-var type = require('type');
+var type;
+
+try {
+  type = require('component-type');
+} catch (e) {
+  type = require('type');
+}
 
 /**
  * Expose `normalize`

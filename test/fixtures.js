@@ -28,3 +28,11 @@ fixtures.push({
     array: [{ name: 'baz' }, { names: [{ a: 1 }] }]
   }
 });
+
+/**
+ * Node
+ */
+
+if ('undefined' != typeof module) {
+  module.exports = fixtures;
+}
